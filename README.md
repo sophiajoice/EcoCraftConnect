@@ -74,6 +74,8 @@ Diagrams
 System Architecture:
 The system uses a Client-Server Architecture. The Frontend (HTML/JS) sends fetch requests to a Java-based API.
 The Java server processes these requests and performs CRUD operations on a MySQL database, returning data in JSON format via the Gson library.
+Flowchart:
+<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/f5b3a017-971f-4e99-a400-20c7d7d55510" />
 
 Application Workflow:
 User enters the site -> Requests products -> Server fetches from MySQL ->User switches to "Sell" -> User submits form-> Server executes SQL INSERT -> Home view refreshes.
