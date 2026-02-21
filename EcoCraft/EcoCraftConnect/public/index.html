@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AmazonEco</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="header">
+    <div class="logo">EcoCraft<span></span>Connect</div>
+
+    <div class="search-bar">
+        <input type="text" id="globalSearch" placeholder="Search AmazonEco">
+        <button onclick="searchGlobal()">Search</button>
+    </div>
+
+    <div class="nav-links">
+        <div onclick="loadHome()">Home</div>
+        <div onclick="showSell()">Sell</div>
+        <div onclick="showOrders()">Orders</div>
+        <div onclick="showLogin()">Login</div>
+    </div>
+</header>
+
+<section class="hero">
+    <h1>Welcome to EcoCraftConnect</h1>
+    <p>Sustainable • Scrapped • First Hand</p>
+</section>
+
+<div id="content" class="product-grid"></div>
+
+<div id="popup" class="popup"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
