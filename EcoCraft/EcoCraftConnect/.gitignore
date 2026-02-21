@@ -1,0 +1,19 @@
+# Java - Ignore compiled .class files
+*.class
+
+# Package files
+*.jar
+*.war
+*.ear
+
+# Database - Ignore local log files
+*.log
+
+# OS - Ignore system files
+.DS_Store
+Thumbs.db
+
+# IDE - Ignore folder settings
+.vscode/
+.idea/
+*.iml
